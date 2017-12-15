@@ -33,6 +33,9 @@ BOOL CBirdsApp::InitInstance()
 	srand((unsigned)time(0));
 	GdiplusStartupInput gdiplusStartupInput;
 	GdiplusStartup(&m_gdiplusToken, &gdiplusStartupInput, NULL);
+	CBirdsDlg dlg;
+	m_pMainWnd = &dlg;
+	dlg.DoModal();
 	return FALSE;
 }
 
