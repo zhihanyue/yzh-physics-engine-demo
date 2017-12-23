@@ -2,7 +2,7 @@
 
 核心类是CPhyEnv（物理环境）、CPhyObj（物理对象），观念是泛化物体（甚至button、分数条都可以成为特殊的物体），点击或移动物体会有路由功能转发到相应的物体上，并调用在引擎内注册的回调函数。
 
-
+![界面](https://github.com/yuezhihan/yzh-physics-engine-demo/blob/master/res/cfb1e933feee1f0f7d30b9aab6b7787c.jpg)
 
 ## 主要特点
 
@@ -160,6 +160,8 @@ void CPhyEnv::Update()
     摩擦力无法处理？物理系统来处理物体间的相互作用
 
     BUG3: 反弹界面方向错误！
+
+![光滑](https://github.com/yuezhihan/yzh-physics-engine-demo/blob/master/res/光滑.gif)
 
 ## 问题
 
